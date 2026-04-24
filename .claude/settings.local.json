@@ -1,0 +1,45 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(git --version)",
+      "Bash(git config *)",
+      "Bash(gh auth *)",
+      "Bash(gh --version)",
+      "Bash(winget install *)",
+      "Read(//c/Users/Administrator/.ssh/**)",
+      "Bash(where gh *)",
+      "Bash(cmd.exe *)",
+      "Bash(ssh-keygen *)",
+      "Bash(ssh *)",
+      "Bash(bash /c/Users/Administrator/.claude/statusline-command.sh)",
+      "Bash(node -e \"const c=[]; process.stdin.on\\('data',d=>c.push\\(d\\)\\); process.stdin.on\\('end',\\(\\)=>{console.log\\(c.join\\(''\\)\\)}\\)\")",
+      "Bash(echo '{\"cwd\":\"C:\\\\\\\\Users\\\\\\\\Administrator\\\\\\\\Downloads\\\\\\\\qiuzhi2046\\\\\\\\first-cc\",\"model\":{\"display_name\":\"Claude Opus 4.6\",\"id\":\"claude-opus-4-6\"},\"context_window\":{\"remaining_percentage\":99.7}}')",
+      "Bash(bash ~/.claude/statusline-command.sh)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(node -)",
+      "Bash(bash .claude/statusline-command.sh)",
+      "Bash(node *)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(bash -c 'node C:/Users/Administrator/.claude/statusline-parse.js')",
+      "Bash(env)",
+      "Bash(dir /s /b \"C:\\\\Users\\\\Administrator\\\\AppData\\\\Roaming\\\\claude*\")",
+      "Bash(claude env *)",
+      "Bash(echo '{\"cwd\":\"C:\\\\\\\\\\\\\\\\Users\\\\\\\\\\\\\\\\Administrator\",\"model\":{\"id\":\"claude-opus-4-6\",\"display_name\":\"Opus 4.6\"},\"context_window\":{\"used_percentage\":18,\"remaining_percentage\":82}}')",
+      "Bash(printf '{\"cwd\":\"C:\\\\\\\\\\\\\\\\Users\\\\\\\\\\\\\\\\Administrator\",\"model\":{\"id\":\"claude-opus-4-6\",\"display_name\":\"Opus 4.6\"},\"context_window\":{\"used_percentage\":18,\"remaining_percentage\":82}}')",
+      "Bash(echo \"exit: $?\")",
+      "Bash(printf 'hello\\\\\\\\nworld')",
+      "Bash(echo \"{\\\\\"cwd\\\\\":\\\\\"C:\\\\\\\\\\\\\\\\Users\\\\\\\\\\\\\\\\Administrator\\\\\",\\\\\"model\\\\\":{\\\\\"id\\\\\":\\\\\"claude-opus-4-6\\\\\",\\\\\"display_name\\\\\":\\\\\"Opus 4.6\\\\\"},\\\\\"context_window\\\\\":{\\\\\"used_percentage\\\\\":18,\\\\\"remaining_percentage\\\\\":82}}\")",
+      "Bash(xxd)",
+      "Bash(echo 'C:\\\\\\\\\\\\\\\\Users\\\\\\\\\\\\\\\\Administrator')",
+      "Bash(printf '%s' 'C:\\\\\\\\\\\\\\\\Users\\\\\\\\\\\\\\\\Administrator')",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git rm *)"
+    ]
+  },
+  "disabledMcpjsonServers": [
+    "playwright"
+  ]
+}
